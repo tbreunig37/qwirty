@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand');
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 256px;
+    font-family: Dosis;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1em;
+}
+
+.categories > a {
+    margin-bottom: 7px;
+    background-color: rgb(194, 192, 192);
+    color: rgb(29, 132, 250);
+    padding: 20px;
+}
+
+.categories > a:hover {
+    box-shadow: 0 2px 5px -2px black;
+
+}
+
+
+   

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand');
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(194, 192, 192);
+    padding: 20px;
+    font-family: Dosis;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.section > h2 {
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+}
+.section > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    }
+
